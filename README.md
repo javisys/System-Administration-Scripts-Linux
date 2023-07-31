@@ -6,7 +6,6 @@ Simple scripts for system administration (Unix), later I will create another one
 - Script to detect running machines on a network segment.
 - A script to organize the different files in subfolders.
 - To detect which ports in your local network are open.
-- A script for mass file renaming, applying a specific pattern.
 - Password generator, this generator can create passwords of different security levels and display them on screen or dump them to a file.
 - A duplicate file finder, this script finds and displays duplicate files in a specific directory, allowing the user to choose what to do with them.
 - System event notifier, this script monitors certain events, such as reboots, logins, important file changes, and sends notifications by e-mail.
