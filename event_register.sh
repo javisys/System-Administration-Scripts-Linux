@@ -5,7 +5,7 @@
 #!/bin/bash
 
 # E-mail address to receive notifications
-email="tu_correo@ejemplo.com"
+email="your_email@example.com"
 
 # Function for configuring audit rules
 configure_audit_rules() {
