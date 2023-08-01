@@ -53,6 +53,18 @@ done
 #    fi
 #done
 
+uninstall_unused_packages() {
+    apt-get autoremove --purge
+}
+
+clean_package_cache() {
+    apt-get clean
+}
+
+clean_unused_configs() {
+    deborphan | xargs apt-get -y remove --purge
+}
+
 # Running additional cleanup for Debian/Ubuntu
 if command -v apt &>/dev/null;
 then
