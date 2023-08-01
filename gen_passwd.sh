@@ -31,12 +31,12 @@ echo "Generating passwords and saving them to $output_file"
 echo
 
 generate_password $low_s
-save_passwd "Low" "$password"
+save_passwd "Low" "$(generate_password $low_s)"
 
 generate_password $medium_s
-save_passwd "Medium" "$password"
+save_passwd "Medium" "$(generate_password $medium_s)"
 
 generate_password $high_s
-save_passwd "High" "$password"
+save_passwd "High" "$(generate_password $high_s)"
 
 echo "Passwords generated and stored in $output_file."
