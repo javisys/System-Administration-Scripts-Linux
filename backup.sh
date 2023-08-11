@@ -17,7 +17,7 @@ fi
 backup_dir="/var/backups"
 
 # Backup file name
-backup_fileN="backup-$(date +%Y%m%d%H%%M%S).tar.gz"
+backup_fileN="backup-$(date +%Y%m%d%H%M%S).tar.gz"
 
 # Create backup directory if it does not exist
 mkdir -p "$backup_dir"
